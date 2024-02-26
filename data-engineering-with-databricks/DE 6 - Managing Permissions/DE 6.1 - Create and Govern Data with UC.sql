@@ -73,6 +73,11 @@
 
 -- COMMAND ----------
 
+
+select current_metastore()
+
+-- COMMAND ----------
+
 CREATE CATALOG IF NOT EXISTS ${DA.my_new_catalog}
 
 -- COMMAND ----------
